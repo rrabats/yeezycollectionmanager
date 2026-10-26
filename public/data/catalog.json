@@ -1,0 +1,634 @@
+[
+  {
+    "id": "BB1826",
+    "name": "Beluga",
+    "model": "350 V2",
+    "releaseYear": 2016,
+    "released": true,
+    "image": "images/shoes/BB1826.webp"
+  },
+  {
+    "id": "BY1605",
+    "name": "Core Black Copper",
+    "model": "350 V2",
+    "releaseYear": 2016,
+    "released": true,
+    "image": "images/shoes/BY1605.webp"
+  },
+  {
+    "id": "BY9611",
+    "name": "Core Black Green",
+    "model": "350 V2",
+    "releaseYear": 2016,
+    "released": true,
+    "image": "images/shoes/BY9611.webp"
+  },
+  {
+    "id": "BY9612",
+    "name": "Core Black Red",
+    "model": "350 V2",
+    "releaseYear": 2016,
+    "released": true,
+    "image": "images/shoes/BY9612.webp"
+  },
+  {
+    "id": "BY1604",
+    "name": "Oreo",
+    "model": "350 V2",
+    "releaseYear": 2016,
+    "released": true,
+    "image": "images/shoes/BY1604.webp"
+  },
+  {
+    "id": "CP9652",
+    "name": "Bred",
+    "model": "350 V2",
+    "releaseYear": 2017,
+    "released": true,
+    "image": "images/shoes/CP9652.webp"
+  },
+  {
+    "id": "CP9654",
+    "name": "Zebra",
+    "model": "350 V2",
+    "releaseYear": 2017,
+    "released": true,
+    "image": "images/shoes/CP9654.webp"
+  },
+  {
+    "id": "CP9366",
+    "name": "Cream White",
+    "model": "350 V2",
+    "releaseYear": 2017,
+    "released": true,
+    "image": "images/shoes/CP9366.webp"
+  },
+  {
+    "id": "B37572",
+    "name": "Semi Frozen Yellow",
+    "model": "350 V2",
+    "releaseYear": 2017,
+    "released": true,
+    "image": "images/shoes/B37572.webp"
+  },
+  {
+    "id": "AH2203",
+    "name": "Beluga 2.0",
+    "model": "350 V2",
+    "releaseYear": 2017,
+    "released": true,
+    "image": "images/shoes/AH2203.webp"
+  },
+  {
+    "id": "B37571",
+    "name": "Blue Tint",
+    "model": "350 V2",
+    "releaseYear": 2017,
+    "released": true,
+    "image": "images/shoes/B37571.webp"
+  },
+  {
+    "id": "F36980",
+    "name": "Butter",
+    "model": "350 V2",
+    "releaseYear": 2018,
+    "released": true,
+    "image": "images/shoes/F36980.webp"
+  },
+  {
+    "id": "F99710",
+    "name": "Sesame",
+    "model": "350 V2",
+    "releaseYear": 2018,
+    "released": true,
+    "image": "images/shoes/F99710.webp"
+  },
+  {
+    "id": "EF2905",
+    "name": "Static",
+    "model": "350 V2",
+    "releaseYear": 2018,
+    "released": true,
+    "image": "images/shoes/EF2905.webp"
+  },
+  {
+    "id": "EF2367",
+    "name": "Static Reflective",
+    "model": "350 V2",
+    "releaseYear": 2018,
+    "released": true,
+    "image": "images/shoes/EF2367.webp"
+  },
+  {
+    "id": "EG7492",
+    "name": "True Form",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/EG7492.webp"
+  },
+  {
+    "id": "EG7491",
+    "name": "Hyperspace",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/EG7491.webp"
+  },
+  {
+    "id": "EG7490",
+    "name": "Clay",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/EG7490.webp"
+  },
+  {
+    "id": "EG5293",
+    "name": "Glow",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/EG5293.webp"
+  },
+  {
+    "id": "FU9006",
+    "name": "Black Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FU9006.webp"
+  },
+  {
+    "id": "FU9007",
+    "name": "Black Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FU9007.webp"
+  },
+  {
+    "id": "FV3250",
+    "name": "Antlia Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FV3250.webp"
+  },
+  {
+    "id": "FV3255",
+    "name": "Antlia Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FV3255.webp"
+  },
+  {
+    "id": "FV5578",
+    "name": "Synth Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FV5578.webp"
+  },
+  {
+    "id": "FV5666",
+    "name": "Synth Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FV5666.webp"
+  },
+  {
+    "id": "FU9161",
+    "name": "Lundmark Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FU9161.webp"
+  },
+  {
+    "id": "FV3254",
+    "name": "Lundmark Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FV3254.webp"
+  },
+  {
+    "id": "FW3043",
+    "name": "Cloud White Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FW3043.webp"
+  },
+  {
+    "id": "FW5317",
+    "name": "Cloud White Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FW5317.webp"
+  },
+  {
+    "id": "FW3042",
+    "name": "Citrin Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FW3042.webp"
+  },
+  {
+    "id": "FW5318",
+    "name": "Citrin Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FW5318.webp"
+  },
+  {
+    "id": "FW5190",
+    "name": "Yecheil Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FW5190.webp"
+  },
+  {
+    "id": "FX4145",
+    "name": "Yecheil Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FX4145.webp"
+  },
+  {
+    "id": "FW5191",
+    "name": "Yeezreel Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FW5191.webp"
+  },
+  {
+    "id": "FX4130",
+    "name": "Yeezreel Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FX4130.webp"
+  },
+  {
+    "id": "FX4348",
+    "name": "Yeshaya Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FX4348.webp"
+  },
+  {
+    "id": "FX4349",
+    "name": "Yeshaya Reflective",
+    "model": "350 V2",
+    "releaseYear": 2019,
+    "released": true,
+    "image": "images/shoes/FX4349.webp"
+  },
+  {
+    "id": "FX9017",
+    "name": "Tail Light",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FX9017.webp"
+  },
+  {
+    "id": "FX9033",
+    "name": "Earth",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FX9033.webp"
+  },
+  {
+    "id": "FX9028",
+    "name": "Flax",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FX9028.webp"
+  },
+  {
+    "id": "FX9035",
+    "name": "Desert Sage",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FX9035.webp"
+  },
+  {
+    "id": "FX9034",
+    "name": "Marsh",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FX9034.webp"
+  },
+  {
+    "id": "FY2903",
+    "name": "Cinder Non-Reflective",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FY2903.webp"
+  },
+  {
+    "id": "FY4176",
+    "name": "Cinder Reflective",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FY4176.webp"
+  },
+  {
+    "id": "FY5158",
+    "name": "Linen",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FY5158.webp"
+  },
+  {
+    "id": "FY5346",
+    "name": "Sulfur",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FY5346.webp"
+  },
+  {
+    "id": "FZ1267",
+    "name": "Zyon",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FZ1267.webp"
+  },
+  {
+    "id": "FZ5421",
+    "name": "Israfil",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FZ5421.webp"
+  },
+  {
+    "id": "FZ5000",
+    "name": "Carbon",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FZ5000.webp"
+  },
+  {
+    "id": "FZ5246",
+    "name": "Natural",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FZ5246.webp"
+  },
+  {
+    "id": "H02795",
+    "name": "Fade",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/H02795.webp"
+  },
+  {
+    "id": "FZ5240",
+    "name": "Sand Taupe",
+    "model": "350 V2",
+    "releaseYear": 2020,
+    "released": true,
+    "image": "images/shoes/FZ5240.webp"
+  },
+  {
+    "id": "GY7657",
+    "name": "Ash Blue",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GY7657.webp"
+  },
+  {
+    "id": "GY7658",
+    "name": "Ash Pearl",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GY7658.webp"
+  },
+  {
+    "id": "GW0089",
+    "name": "Ash Stone",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GW0089.webp"
+  },
+  {
+    "id": "GW2869",
+    "name": "Mono Ice",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GW2869.webp"
+  },
+  {
+    "id": "GW2870",
+    "name": "Mono Clay",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GW2870.webp"
+  },
+  {
+    "id": "GW2871",
+    "name": "Mono Mist",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GW2871.webp"
+  },
+  {
+    "id": "GX3791",
+    "name": "Mono Cinder",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GX3791.webp"
+  },
+  {
+    "id": "GY3438",
+    "name": "Light",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GY3438.webp"
+  },
+  {
+    "id": "GW3773",
+    "name": "MX Oat",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GW3773.webp"
+  },
+  {
+    "id": "GW1229",
+    "name": "Beluga Reflective",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GW1229.webp"
+  },
+  {
+    "id": "GW3774",
+    "name": "MX Rock",
+    "model": "350 V2",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GW3774.webp"
+  },
+  {
+    "id": "GY7164",
+    "name": "Dazzling Blue",
+    "model": "350 V2",
+    "releaseYear": 2022,
+    "released": true,
+    "image": "images/shoes/GY7164.webp"
+  },
+  {
+    "id": "HQ6316",
+    "name": "Bone",
+    "model": "350 V2",
+    "releaseYear": 2022,
+    "released": true,
+    "image": "images/shoes/HQ6316.webp"
+  },
+  {
+    "id": "HQ4540",
+    "name": "Onyx",
+    "model": "350 V2",
+    "releaseYear": 2022,
+    "released": true,
+    "image": "images/shoes/HQ4540.webp"
+  },
+  {
+    "id": "HP7870",
+    "name": "Slate",
+    "model": "350 V2",
+    "releaseYear": 2022,
+    "released": true,
+    "image": "images/shoes/HP7870.webp"
+  },
+  {
+    "id": "GW3775",
+    "name": "MX Frost Blue",
+    "model": "350 V2",
+    "releaseYear": 2022,
+    "released": false,
+    "image": "images/shoes/GW3775.webp"
+  },
+  {
+    "id": "HQ2060",
+    "name": "Salt",
+    "model": "350 V2",
+    "releaseYear": 2022,
+    "released": true,
+    "image": "images/shoes/HQ2060.webp"
+  },
+  {
+    "id": "HQ2059",
+    "name": "Granite",
+    "model": "350 V2",
+    "releaseYear": 2023,
+    "released": true,
+    "image": "images/shoes/HQ2059.webp"
+  },
+  {
+    "id": "HQ7045",
+    "name": "Carbon Beluga",
+    "model": "350 V2",
+    "releaseYear": 2023,
+    "released": true,
+    "image": "images/shoes/HQ7045.webp"
+  },
+  {
+    "id": "ID4811",
+    "name": "MX Dark Salt",
+    "model": "350 V2",
+    "releaseYear": 2023,
+    "released": true,
+    "image": "images/shoes/ID4811.webp"
+  },
+  {
+    "id": "IF3219",
+    "name": "Steel Grey",
+    "model": "350 V2",
+    "releaseYear": 2024,
+    "released": true,
+    "image": "images/shoes/IF3219.webp"
+  },
+  {
+    "id": "GX9401",
+    "name": "Slate Blue",
+    "model": "350 V2 CMPCT",
+    "releaseYear": 2021,
+    "released": true,
+    "image": "images/shoes/GX9401.webp"
+  },
+  {
+    "id": "GW6945",
+    "name": "Slate Red",
+    "model": "350 V2 CMPCT",
+    "releaseYear": 2022,
+    "released": true,
+    "image": "images/shoes/GW6945.webp"
+  },
+  {
+    "id": "HQ6319",
+    "name": "Slate Carbon",
+    "model": "350 V2 CMPCT",
+    "releaseYear": 2022,
+    "released": true,
+    "image": "images/shoes/HQ6319.webp"
+  },
+  {
+    "id": "H06519",
+    "name": "Slate Bone",
+    "model": "350 V2 CMPCT",
+    "releaseYear": 2022,
+    "released": true,
+    "image": "images/shoes/H06519.webp"
+  },
+  {
+    "id": "IG9608",
+    "name": "Panda",
+    "model": "350 V2 CMPCT",
+    "releaseYear": 2023,
+    "released": true,
+    "image": "images/shoes/IG9608.webp"
+  },
+  {
+    "id": "IG9606",
+    "name": "Slate Onyx",
+    "model": "350 V2 CMPCT",
+    "releaseYear": 2023,
+    "released": true,
+    "image": "images/shoes/IG9606.webp"
+  }
+]
