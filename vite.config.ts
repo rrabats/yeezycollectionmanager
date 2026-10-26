@@ -33,7 +33,8 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,webp,json}'],
         // The collection changes at runtime; it must never be served from the offline cache.
-        globIgnores: ['**/data/collection.json'],
+        // Splash screens are only read by iOS when launching, so they don't need to be cached for offline use.
+        globIgnores: ['**/data/collection.json', '**/apple-splash-*.png'],
         // Activate a new version right away instead of waiting for every open copy of the app to close.
         skipWaiting: true,
         clientsClaim: true,

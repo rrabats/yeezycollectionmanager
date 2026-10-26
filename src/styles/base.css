@@ -5,6 +5,8 @@
 }
 
 html {
+  /* Black behind the iOS rubber-band scroll instead of white */
+  background: var(--color-bg);
   color-scheme: dark;
   -webkit-text-size-adjust: 100%;
 }
@@ -28,4 +30,12 @@ img {
 button {
   font: inherit;
   color: inherit;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Feel like an app: holding a link or product image doesn't open the iOS preview / save sheet. */
+a,
+img {
+  -webkit-touch-callout: none;
 }
