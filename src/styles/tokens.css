@@ -9,6 +9,9 @@
   --color-text-muted: #8e8e93;
   --color-border: #2c2c2e;
   --color-accent: #ffffff;
+  --color-success: #30d158;
+  --color-warning: #ffd60a;
+  --color-danger: #ff453a;
 
   /* Typography */
   --font-sans: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;

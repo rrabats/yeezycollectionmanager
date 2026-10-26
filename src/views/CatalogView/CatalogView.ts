@@ -1,9 +1,11 @@
-import { computed, defineComponent, onMounted } from 'vue'
+import { computed, defineComponent } from 'vue'
 import CollectionProgress from '../../components/CollectionProgress/CollectionProgress.vue'
 import SearchField from '../../components/SearchField/SearchField.vue'
 import SegmentedControl from '../../components/SegmentedControl/SegmentedControl.vue'
 import type { SegmentOption } from '../../components/SegmentedControl/SegmentedControl'
+import { RouterLink } from 'vue-router'
 import ShoeCard from '../../components/ShoeCard/ShoeCard.vue'
+import SyncStatus from '../../components/SyncStatus/SyncStatus.vue'
 import { useCatalogStore } from '../../stores/catalogStore'
 import { useCollectionStore } from '../../stores/collectionStore'
 import { useFilterStore } from '../../stores/filterStore'
@@ -22,7 +24,7 @@ const modelOptions: SegmentOption[] = [
 
 export default defineComponent({
   name: 'CatalogView',
-  components: { CollectionProgress, SearchField, SegmentedControl, ShoeCard },
+  components: { CollectionProgress, RouterLink, SearchField, SegmentedControl, ShoeCard, SyncStatus },
   setup() {
     const catalog = useCatalogStore()
     const collection = useCollectionStore()
@@ -48,11 +50,6 @@ export default defineComponent({
     function retry(): void {
       void catalog.load()
     }
-
-    onMounted(() => {
-      void catalog.load()
-      void collection.load()
-    })
 
     return {
       catalog,

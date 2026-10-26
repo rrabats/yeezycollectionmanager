@@ -1,5 +1,6 @@
-import { computed, defineComponent, onMounted } from 'vue'
+import { computed, defineComponent } from 'vue'
 import { useRouter } from 'vue-router'
+import SyncStatus from '../../components/SyncStatus/SyncStatus.vue'
 import { useCatalogStore } from '../../stores/catalogStore'
 import { useCollectionStore } from '../../stores/collectionStore'
 import { assetUrl } from '../../utils/assetUrl'
@@ -8,6 +9,7 @@ const dateFormat = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'lo
 
 export default defineComponent({
   name: 'ShoeDetailView',
+  components: { SyncStatus },
   props: {
     id: { type: String, required: true },
   },
@@ -36,11 +38,6 @@ export default defineComponent({
       else void router.push({ name: 'catalog' })
     }
 
-    onMounted(() => {
-      void catalog.load()
-      void collection.load()
-    })
-
-    return { catalog, shoe, imageSrc, owned, ownedSince, toggleOwned, goBack }
+    return { catalog, collection, shoe, imageSrc, owned, ownedSince, toggleOwned, goBack }
   },
 })

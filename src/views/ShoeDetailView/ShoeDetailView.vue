@@ -37,6 +37,12 @@
           >
             {{ owned ? 'Remove from collection' : 'Add to collection' }}
           </button>
+          <SyncStatus
+            class="detail__sync"
+            :state="collection.syncState"
+            :error="collection.syncError"
+            :pending="collection.pendingCount"
+          />
         </div>
 
         <dl class="detail__specs">

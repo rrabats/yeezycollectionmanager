@@ -1,0 +1,48 @@
+.sync {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+  line-height: 1.4;
+}
+
+.sync__dot {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  margin-top: 4px;
+  border-radius: 50%;
+  background: var(--sync-color);
+}
+
+.sync--ok {
+  --sync-color: var(--color-success);
+}
+
+.sync--busy {
+  --sync-color: var(--color-text-muted);
+}
+
+.sync--busy .sync__dot {
+  animation: sync-pulse 1s ease-in-out infinite;
+}
+
+.sync--waiting {
+  --sync-color: var(--color-warning);
+}
+
+.sync--problem {
+  --sync-color: var(--color-danger);
+}
+
+.sync__link {
+  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
+}
+
+@keyframes sync-pulse {
+  50% {
+    opacity: 0.3;
+  }
+}

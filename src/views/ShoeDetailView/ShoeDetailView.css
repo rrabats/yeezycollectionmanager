@@ -139,6 +139,11 @@
   color: var(--color-text);
 }
 
+.detail__sync {
+  justify-content: center;
+  margin-top: var(--space-3);
+}
+
 .detail__specs {
   margin: 0;
   border-top: 1px solid var(--color-border);

@@ -17,6 +17,11 @@ const router = createRouter({
       props: true,
     },
     {
+      path: '/settings',
+      name: 'settings',
+      component: () => import('../views/SettingsView/SettingsView.vue'),
+    },
+    {
       path: '/:pathMatch(.*)*',
       redirect: { name: 'catalog' },
     },
