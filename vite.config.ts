@@ -30,6 +30,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,webp,json}'],
+        // The collection changes at runtime; it must never be served from the offline cache.
+        globIgnores: ['**/data/collection.json'],
       },
     }),
   ],
