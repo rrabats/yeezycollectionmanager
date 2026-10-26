@@ -34,6 +34,9 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,webp,json}'],
         // The collection changes at runtime; it must never be served from the offline cache.
         globIgnores: ['**/data/collection.json'],
+        // Activate a new version right away instead of waiting for every open copy of the app to close.
+        skipWaiting: true,
+        clientsClaim: true,
       },
     }),
   ],
