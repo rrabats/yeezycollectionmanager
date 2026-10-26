@@ -12,6 +12,8 @@ export default defineConfig({
     vue(),
     VitePWA({
       registerType: 'autoUpdate',
+      // Registered from src/services/serviceWorker.ts
+      injectRegister: false,
       pwaAssets: {
         config: true,
         overrideManifestIcons: true,
