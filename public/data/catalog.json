@@ -5,6 +5,7 @@
     "model": "350 V2",
     "releaseYear": 2016,
     "released": true,
+    "counterpart": "GW1229",
     "image": "images/shoes/BB1826.webp"
   },
   {
@@ -515,6 +516,7 @@
     "model": "350 V2",
     "releaseYear": 2021,
     "released": true,
+    "counterpart": "BB1826",
     "image": "images/shoes/GW1229.webp"
   },
   {
