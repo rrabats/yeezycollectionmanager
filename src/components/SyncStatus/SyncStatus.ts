@@ -1,4 +1,4 @@
-import { computed, defineComponent, type PropType } from 'vue'
+import { computed, defineComponent, onBeforeUnmount, ref, watch, type PropType } from 'vue'
 import { RouterLink } from 'vue-router'
 import type { SyncState } from '../../types/collection'
 
@@ -17,9 +17,31 @@ export default defineComponent({
     pending: { type: Number, default: 0 },
     /** Also show "All changes saved" when there is nothing to report. */
     showIdle: { type: Boolean, default: false },
+    /** Hide the "Saved" confirmation after this many milliseconds (0 keeps it). */
+    hideSavedAfter: { type: Number, default: 0 },
   },
   setup(props) {
-    const visible = computed(() => props.showIdle || props.state !== 'idle')
+    const savedHidden = ref(false)
+    let hideTimer: ReturnType<typeof setTimeout> | undefined
+
+    watch(
+      () => props.state,
+      (state) => {
+        clearTimeout(hideTimer)
+        savedHidden.value = false
+        if (state === 'saved' && props.hideSavedAfter > 0) {
+          hideTimer = setTimeout(() => (savedHidden.value = true), props.hideSavedAfter)
+        }
+      },
+      { immediate: true },
+    )
+
+    onBeforeUnmount(() => clearTimeout(hideTimer))
+
+    const visible = computed(() => {
+      if (props.state === 'saved' && savedHidden.value) return false
+      return props.showIdle || props.state !== 'idle'
+    })
 
     const tone = computed<Tone>(() => {
       switch (props.state) {
@@ -38,9 +60,9 @@ export default defineComponent({
     const label = computed(() => {
       switch (props.state) {
         case 'saving':
-          return 'Saving to GitHub…'
+          return 'Saving…'
         case 'saved':
-          return 'Saved to GitHub'
+          return 'Saved'
         case 'offline':
           return `Offline · ${changes(props.pending)} will save when you're back online`
         case 'needs-token':

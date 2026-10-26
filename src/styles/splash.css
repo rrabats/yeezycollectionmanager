@@ -1,0 +1,85 @@
+/*
+ * Intro animation. The logo starts at exactly the size and position of the iOS launch image
+ * (pwa-assets.config.ts: padding 0.45 → logo is 55% of the screen's short side, centred),
+ * then lifts while the name fades in. Loaded from index.html so it paints before the app's JS.
+ */
+.splash {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  overflow: hidden;
+  background: #000000;
+  transition: opacity 0.45s ease;
+}
+
+.splash--leaving {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.splash__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 55vmin;
+  height: 55vmin;
+  transform: translate(-50%, -50%);
+  animation: splash-lift 0.7s 0.15s cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+.splash__text {
+  position: absolute;
+  top: calc(50% + 6vmin);
+  right: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  opacity: 0;
+  animation: splash-reveal 0.6s 0.4s ease forwards;
+}
+
+.splash__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.splash__subtitle {
+  margin: 0.5rem 0 0;
+  color: #8e8e93;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+@keyframes splash-lift {
+  to {
+    transform: translate(-50%, calc(-50% - 9vmin)) scale(0.8);
+  }
+}
+
+@keyframes splash-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .splash__logo {
+    animation: none;
+  }
+
+  .splash__text {
+    display: none;
+  }
+}

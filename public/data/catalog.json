@@ -109,6 +109,7 @@
     "model": "350 V2",
     "releaseYear": 2018,
     "released": true,
+    "counterpart": "EF2367",
     "image": "images/shoes/EF2905.webp"
   },
   {
@@ -117,6 +118,7 @@
     "model": "350 V2",
     "releaseYear": 2018,
     "released": true,
+    "counterpart": "EF2905",
     "image": "images/shoes/EF2367.webp"
   },
   {
@@ -157,6 +159,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FU9007",
     "image": "images/shoes/FU9006.webp"
   },
   {
@@ -165,6 +168,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FU9006",
     "image": "images/shoes/FU9007.webp"
   },
   {
@@ -173,6 +177,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FV3255",
     "image": "images/shoes/FV3250.webp"
   },
   {
@@ -181,6 +186,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FV3250",
     "image": "images/shoes/FV3255.webp"
   },
   {
@@ -189,6 +195,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FV5666",
     "image": "images/shoes/FV5578.webp"
   },
   {
@@ -197,6 +204,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FV5578",
     "image": "images/shoes/FV5666.webp"
   },
   {
@@ -205,6 +213,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FV3254",
     "image": "images/shoes/FU9161.webp"
   },
   {
@@ -213,6 +222,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FU9161",
     "image": "images/shoes/FV3254.webp"
   },
   {
@@ -221,6 +231,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FW5317",
     "image": "images/shoes/FW3043.webp"
   },
   {
@@ -229,6 +240,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FW3043",
     "image": "images/shoes/FW5317.webp"
   },
   {
@@ -237,6 +249,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FW5318",
     "image": "images/shoes/FW3042.webp"
   },
   {
@@ -245,6 +258,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FW3042",
     "image": "images/shoes/FW5318.webp"
   },
   {
@@ -253,6 +267,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FX4145",
     "image": "images/shoes/FW5190.webp"
   },
   {
@@ -261,6 +276,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FW5190",
     "image": "images/shoes/FX4145.webp"
   },
   {
@@ -269,6 +285,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FX4130",
     "image": "images/shoes/FW5191.webp"
   },
   {
@@ -277,6 +294,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FW5191",
     "image": "images/shoes/FX4130.webp"
   },
   {
@@ -285,6 +303,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FX4349",
     "image": "images/shoes/FX4348.webp"
   },
   {
@@ -293,6 +312,7 @@
     "model": "350 V2",
     "releaseYear": 2019,
     "released": true,
+    "counterpart": "FX4348",
     "image": "images/shoes/FX4349.webp"
   },
   {
@@ -341,6 +361,7 @@
     "model": "350 V2",
     "releaseYear": 2020,
     "released": true,
+    "counterpart": "FY4176",
     "image": "images/shoes/FY2903.webp"
   },
   {
@@ -349,6 +370,7 @@
     "model": "350 V2",
     "releaseYear": 2020,
     "released": true,
+    "counterpart": "FY2903",
     "image": "images/shoes/FY4176.webp"
   },
   {

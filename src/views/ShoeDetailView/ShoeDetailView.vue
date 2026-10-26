@@ -62,6 +62,15 @@
             <dt>Status</dt>
             <dd>{{ shoe.released ? 'Released' : 'Never released' }}</dd>
           </div>
+          <div v-if="counterpart" class="detail__spec">
+            <dt>Other version</dt>
+            <dd>
+              <RouterLink class="detail__link" :to="{ name: 'shoe', params: { id: counterpart.id } }" replace>
+                {{ counterpart.name }}
+              </RouterLink>
+              <span v-if="counterpartOwned" class="detail__owned-tag">Owned</span>
+            </dd>
+          </div>
         </dl>
       </main>
     </template>

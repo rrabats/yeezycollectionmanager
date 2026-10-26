@@ -41,6 +41,16 @@
   font-weight: var(--font-weight-bold);
 }
 
+.sync-fade-enter-active,
+.sync-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.sync-fade-enter-from,
+.sync-fade-leave-to {
+  opacity: 0;
+}
+
 @keyframes sync-pulse {
   50% {
     opacity: 0.3;

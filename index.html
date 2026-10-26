@@ -7,8 +7,17 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Yeezy Vault" />
     <title>Yeezy Vault</title>
+    <link rel="stylesheet" href="/src/styles/splash.css" />
   </head>
   <body>
+    <!-- Shown from the first paint, so it continues seamlessly from the iOS launch image. Removed by src/services/splash.ts -->
+    <div id="splash" class="splash" aria-hidden="true">
+      <img class="splash__logo" src="/logo.svg" alt="" width="512" height="512" />
+      <div class="splash__text">
+        <p class="splash__title">Yeezy Vault</p>
+        <p class="splash__subtitle">350 V2 · CMPCT</p>
+      </div>
+    </div>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>

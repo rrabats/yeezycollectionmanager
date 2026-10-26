@@ -3,12 +3,13 @@ import CollectionProgress from '../../components/CollectionProgress/CollectionPr
 import SearchField from '../../components/SearchField/SearchField.vue'
 import SegmentedControl from '../../components/SegmentedControl/SegmentedControl.vue'
 import type { SegmentOption } from '../../components/SegmentedControl/SegmentedControl'
-import { RouterLink } from 'vue-router'
+import AppMenu from '../../components/AppMenu/AppMenu.vue'
 import ShoeCard from '../../components/ShoeCard/ShoeCard.vue'
 import SyncStatus from '../../components/SyncStatus/SyncStatus.vue'
 import { useCatalogStore } from '../../stores/catalogStore'
 import { useCollectionStore } from '../../stores/collectionStore'
 import { useFilterStore } from '../../stores/filterStore'
+import { colorwayProgress } from '../../utils/colorways'
 
 const ownershipOptions: SegmentOption[] = [
   { value: 'all', label: 'All' },
@@ -24,7 +25,7 @@ const modelOptions: SegmentOption[] = [
 
 export default defineComponent({
   name: 'CatalogView',
-  components: { CollectionProgress, RouterLink, SearchField, SegmentedControl, ShoeCard, SyncStatus },
+  components: { AppMenu, CollectionProgress, SearchField, SegmentedControl, ShoeCard, SyncStatus },
   setup() {
     const catalog = useCatalogStore()
     const collection = useCollectionStore()
@@ -41,6 +42,8 @@ export default defineComponent({
 
     // Only count owned shoes that are actually in the catalog.
     const ownedCount = computed(() => catalog.shoes.filter((shoe) => collection.isOwned(shoe.id)).length)
+    // Reflective and non-reflective versions count as one colorway.
+    const anyPercent = computed(() => colorwayProgress(catalog.shoes, collection.isOwned))
 
     const resultLabel = computed(() => {
       const count = visibleShoes.value.length
@@ -57,6 +60,7 @@ export default defineComponent({
       filters,
       visibleShoes,
       ownedCount,
+      anyPercent,
       resultLabel,
       ownershipOptions,
       modelOptions,

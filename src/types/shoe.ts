@@ -9,6 +9,8 @@ export interface Shoe {
   releaseYear: number
   /** false for shoes that never had a general release */
   released: boolean
+  /** code of the reflective / non-reflective version of the same colorway, if there is one */
+  counterpart?: string
   /** path relative to the app base, e.g. "images/shoes/FU9007.webp" */
   image: string
 }

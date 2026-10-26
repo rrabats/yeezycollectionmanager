@@ -18,23 +18,9 @@
   margin-bottom: var(--space-4);
 }
 
-.catalog__settings {
+.catalog__progress {
   display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  margin-right: calc(var(--space-2) * -1);
-  border-radius: 50%;
-}
-
-.catalog__settings svg {
-  width: 24px;
-  height: 24px;
-  fill: none;
-  stroke: var(--color-text);
-  stroke-width: 1.75;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  gap: var(--space-4);
 }
 
 .catalog__sync {

@@ -3,8 +3,10 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import { registerServiceWorker } from './services/serviceWorker'
+import { hideSplash } from './services/splash'
 import './styles/tokens.css'
 import './styles/base.css'
 
 createApp(App).use(createPinia()).use(router).mount('#app')
+hideSplash()
 registerServiceWorker()

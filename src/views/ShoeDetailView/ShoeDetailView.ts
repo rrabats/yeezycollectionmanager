@@ -1,5 +1,5 @@
 import { computed, defineComponent } from 'vue'
-import { useRouter } from 'vue-router'
+import { RouterLink, useRouter } from 'vue-router'
 import SyncStatus from '../../components/SyncStatus/SyncStatus.vue'
 import { useCatalogStore } from '../../stores/catalogStore'
 import { useCollectionStore } from '../../stores/collectionStore'
@@ -9,7 +9,7 @@ const dateFormat = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'lo
 
 export default defineComponent({
   name: 'ShoeDetailView',
-  components: { SyncStatus },
+  components: { RouterLink, SyncStatus },
   props: {
     id: { type: String, required: true },
   },
@@ -21,6 +21,8 @@ export default defineComponent({
     const shoe = computed(() => catalog.byId.get(props.id))
     const imageSrc = computed(() => (shoe.value ? assetUrl(shoe.value.image) : ''))
     const owned = computed(() => collection.isOwned(props.id))
+    const counterpart = computed(() => (shoe.value?.counterpart ? catalog.byId.get(shoe.value.counterpart) : undefined))
+    const counterpartOwned = computed(() => (counterpart.value ? collection.isOwned(counterpart.value.id) : false))
 
     const ownedSince = computed(() => {
       const entry = collection.entry(props.id)
@@ -38,6 +40,17 @@ export default defineComponent({
       else void router.push({ name: 'catalog' })
     }
 
-    return { catalog, collection, shoe, imageSrc, owned, ownedSince, toggleOwned, goBack }
+    return {
+      catalog,
+      collection,
+      shoe,
+      imageSrc,
+      owned,
+      ownedSince,
+      counterpart,
+      counterpartOwned,
+      toggleOwned,
+      goBack,
+    }
   },
 })

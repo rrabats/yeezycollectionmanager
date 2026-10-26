@@ -167,6 +167,22 @@
   text-align: right;
 }
 
+.detail__link {
+  color: var(--color-text);
+  font-weight: var(--font-weight-bold);
+}
+
+.detail__owned-tag {
+  margin-left: var(--space-2);
+  padding: 1px var(--space-2);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface-raised);
+  font-size: 0.625rem;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-caps);
+  text-transform: uppercase;
+}
+
 .detail__message {
   padding: var(--space-8) var(--page-gutter);
   color: var(--color-text-muted);
